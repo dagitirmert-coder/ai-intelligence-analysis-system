@@ -1,6 +1,4 @@
-# ai-intelligence-analysis-system
-Çoklu Kaynaklı Yapılandırılmamış İstihbarat Verilerinin Yapay Zekâ ile Tekilleştirilmesi ve Analizi Bilişim Sistemi
-[README.md](https://github.com/user-attachments/files/28720967/README.md)
+ [README.md](https://github.com/user-attachments/files/28721062/README.md)
 <div align="center">
 
 # 🔍 AI Intelligence Analysis System
@@ -35,17 +33,21 @@ The system — codenamed **İZÇİ** — is a full-stack intelligence platform t
 
 ---
 
-## 🖼️ Screenshots
+---
 
-> *Replace the placeholders below with actual screenshots by uploading images to `/docs/screenshots/` in this repository.*
+## 🖼️ System Architecture Diagrams
 
-| Dashboard | Person Dossier | 3D Map (CesiumJS) |
-|-----------|---------------|-------------------|
-| ![Dashboard](docs/screenshots/dashboard.png) | ![Person Analysis](docs/screenshots/person_analysis.png) | ![3D Map](docs/screenshots/map3d.png) |
+| Person Intelligence Pipeline | Data Model & Entity Relationships |
+|:---:|:---:|
+| ![Person Profile Pipeline](docs/screenshots/person_profile_pipeline.png) | ![Data Model](docs/screenshots/data_model_workflow.png) |
 
-| Relationship Graph | HUMINT Panel | Military COP Mode |
-|--------------------|-------------|-------------------|
-| ![Network Graph](docs/screenshots/network_graph.png) | ![HUMINT](docs/screenshots/humint.png) | ![Military COP](docs/screenshots/military_cop.png) |
+| Five-Signal Relationship Graph | Pattern of Life & Behavioral Analysis |
+|:---:|:---:|
+| ![Relationship Graph](docs/screenshots/five_signal_relationship_graph.png) | ![Pattern of Life](docs/screenshots/pattern_of_life_analysis.png) |
+
+| Autonomous Agent Dispatcher | PostGIS Geospatial Data Layer |
+|:---:|:---:|
+| ![Agent Architecture](docs/screenshots/agent_dispatcher_architecture.png) | ![PostGIS](docs/screenshots/postgis_data_layer.png) |
 
 ---
 
