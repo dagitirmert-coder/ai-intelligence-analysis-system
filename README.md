@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/28721440/README.md)
 <div align="center">
 
-# 🔍 AI Intelligence Analysis System
+#  AI Intelligence Analysis System
 ### *İZÇİ — Multi-Source OSINT & GEOINT Platform*
 
 **A modular, AI-powered open-source intelligence system for person-centric analysis, geospatial reasoning, and multi-source data fusion — running entirely on local LLMs with no cloud dependency.**
@@ -17,7 +17,7 @@
 
 </div>
 
-## 📌 About This Project
+##  About This Project
 
 This repository contains the software artifact of a Master's thesis developed at **Hacettepe University, Institute of Informatics** (Bilişim Sistemleri, 2026).
 
@@ -33,7 +33,7 @@ The system — codenamed **İZÇİ** — is a full-stack intelligence platform t
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
 | GEOINT Dashboard | Person Intelligence (PERSINT) |
 |:---:|:---:|
@@ -45,7 +45,7 @@ The system — codenamed **İZÇİ** — is a full-stack intelligence platform t
 
 ---
 
-## 🖼️ System Architecture Diagrams
+##  System Architecture Diagrams
 
 | Person Intelligence Pipeline | Data Model & Entity Relationships |
 |:---:|:---:|
@@ -61,14 +61,14 @@ The system — codenamed **İZÇİ** — is a full-stack intelligence platform t
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🧠 AI-Powered Entity Extraction
+###  AI-Powered Entity Extraction
 - Named entity recognition (persons, orgs, locations, events) from free-form text
 - Two-tier LLM routing: **Gemma 3 12B** for complex reasoning, **Gemma 3 4B** for fast tasks
 - Structured JSON extraction with a 3-layer self-repair pipeline (handles malformed Turkish LLM output)
 
-### 👤 Person Intelligence (PERSINT)
+###  Person Intelligence (PERSINT)
 - **11 sub-components** per person module:
   - Deduplicated timeline construction
   - Recency-Frequency-Confidence weighted current location estimation
@@ -82,30 +82,29 @@ The system — codenamed **İZÇİ** — is a full-stack intelligence platform t
   - Red team analysis
   - Regional activity summary
 
-### 🗺️ Geospatial Intelligence (GEOINT)
+###  Geospatial Intelligence (GEOINT)
 - 3D interactive map powered by **CesiumJS**
 - PostGIS spatial queries (proximity, terrain, line-of-sight)
 - OpenStreetMap tile integration
 - Satellite imagery analysis via **OpenCV**
 
-### 🔗 Multi-Source Data Fusion
+###  Multi-Source Data Fusion
 - MAP-REDUCE profile synthesis across sources
 - Relationship graph from: co-occurrence traces, meeting records, shared report mentions, alias matches, and news-news links
 - Autonomous agent infrastructure with **APScheduler**
 
-### 🎙️ Audio & Multimedia
+###  Audio & Multimedia
 - Audio transcription using **Faster-Whisper**
 - Photo upload and person matching
 
-### 🪖 Military COP Mode
+###  Military COP Mode
 - Common Operating Picture dashboard
 - Threat scoring, scenario engine (**NetworkX**), predictive analytics
 - Risk assessment and simulation modules
 
 ---
 
-## 🏗️ Architecture
-
+##  Architecture
 ```
 ┌─────────────────────────────────────────────────────┐
 │                  Presentation Layer                  │
@@ -124,7 +123,7 @@ All LLM inference runs **locally via Ollama** — no data leaves the machine.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -141,7 +140,7 @@ All LLM inference runs **locally via Ollama** — no data leaves the machine.
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -200,7 +199,7 @@ Open **http://localhost:8000** in your browser.
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 ├── app.py                      # FastAPI entry point
@@ -225,7 +224,7 @@ Open **http://localhost:8000** in your browser.
 
 ---
 
-## 🎓 Academic Context
+##  Academic Context
 
 This system is the software implementation accompanying the Master's thesis:
 
@@ -239,13 +238,13 @@ The thesis is available upon request via [Hacettepe University Bilişim Enstitü
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This system is developed for **academic research purposes**. All sample data used in the thesis and seed scripts is **entirely fictional**. The system is designed to process **publicly available open-source information (OSINT)** only. Use responsibly and in accordance with applicable laws and regulations, including GDPR (EU 2016/679) and KVKK (Law No. 6698).
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — see [LICENSE](LICENSE) for details.
 
