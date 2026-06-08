@@ -1,4 +1,4 @@
- [README.md](https://github.com/user-attachments/files/28721062/README.md)
+[README.md](https://github.com/user-attachments/files/28721201/README.md)
 <div align="center">
 
 # 🔍 AI Intelligence Analysis System
@@ -39,15 +39,15 @@ The system — codenamed **İZÇİ** — is a full-stack intelligence platform t
 
 | Person Intelligence Pipeline | Data Model & Entity Relationships |
 |:---:|:---:|
-| ![Person Profile Pipeline](docs/screenshots/person_profile_pipeline.png) | ![Data Model](docs/screenshots/data_model_workflow.png) |
+| ![Person Profile Pipeline](screenshots/person_profile_pipeline.png) | ![Data Model](screenshots/data_model_workflow.png) |
 
 | Five-Signal Relationship Graph | Pattern of Life & Behavioral Analysis |
 |:---:|:---:|
-| ![Relationship Graph](docs/screenshots/five_signal_relationship_graph.png) | ![Pattern of Life](docs/screenshots/pattern_of_life_analysis.png) |
+| ![Relationship Graph](screenshots/five_signal_relationship_graph.png) | ![Pattern of Life](screenshots/pattern_of_life_analysis.png) |
 
 | Autonomous Agent Dispatcher | PostGIS Geospatial Data Layer |
 |:---:|:---:|
-| ![Agent Architecture](docs/screenshots/agent_dispatcher_architecture.png) | ![PostGIS](docs/screenshots/postgis_data_layer.png) |
+| ![Agent Architecture](screenshots/agent_dispatcher_architecture.png) | ![PostGIS](screenshots/postgis_data_layer.png) |
 
 ---
 
@@ -210,7 +210,7 @@ Open **http://localhost:8000** in your browser.
 ├── templates/                  # Jinja2 HTML templates
 ├── static/                     # Frontend assets
 ├── seed_*.py                   # Sample data generators
-└── docs/screenshots/           # ← Add your screenshots here
+└── screenshots/           # ← Add your screenshots here
 ```
 
 ---
