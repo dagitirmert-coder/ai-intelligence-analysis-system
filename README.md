@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/28721201/README.md)
+[README.md](https://github.com/user-attachments/files/28721440/README.md)
 <div align="center">
 
 # 🔍 AI Intelligence Analysis System
@@ -32,6 +32,16 @@ The system — codenamed **İZÇİ** — is a full-stack intelligence platform t
 > The thesis addresses a critical gap: performing OSINT for **Turkish-language content** at small-to-medium intelligence unit scale, without cloud infrastructure or proprietary APIs.
 
 ---
+
+## 🖼️ Screenshots
+
+| GEOINT Dashboard | Person Intelligence (PERSINT) |
+|:---:|:---:|
+| ![Dashboard](screenshots/ui_dashboard.png) | ![Person Intelligence](screenshots/Kişi_İstihabrat.png) |
+
+| Operations Panel | |
+|:---:|:---:|
+| ![Operations](screenshots/Operasyon_Ekran_Kaydı.png) | |
 
 ---
 
@@ -210,7 +220,7 @@ Open **http://localhost:8000** in your browser.
 ├── templates/                  # Jinja2 HTML templates
 ├── static/                     # Frontend assets
 ├── seed_*.py                   # Sample data generators
-└── screenshots/           # ← Add your screenshots here
+└── screenshots/                # UI & architecture screenshots
 ```
 
 ---
